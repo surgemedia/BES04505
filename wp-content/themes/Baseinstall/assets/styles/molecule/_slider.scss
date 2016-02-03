@@ -1,0 +1,22 @@
+#carousel {
+	
+	margin-top: 2em;
+
+	.left { background:transparent;}
+	.right { background:transparent;}
+	
+	  .hexogone {
+	    @include hex (32em, rgba($pink,0.8), vertical, true);
+	    p {
+	    	color:#fff;
+	    	padding:1em;
+	    	font-size:1.5em;
+	    	text-align: center;
+	    	margin: 0 auto;
+	    }
+	    .border-hexo {
+		
+	    }
+	  }
+
+}

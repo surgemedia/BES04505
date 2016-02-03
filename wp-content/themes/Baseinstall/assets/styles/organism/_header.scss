@@ -1,0 +1,78 @@
+.banner {
+	position:relative;
+	 .brand {
+		    	 margin-right: 0px;
+			    padding-right:0px;
+			    overflow:hidden;
+			    margin-left:3.5em;
+		    }
+	.nav-primary {
+		    margin-top: 2.8em;
+		    padding: 0px;
+		    float: left;
+		    margin-right: 0px;
+		    padding-right:0px;
+		    display:inline-block;
+			.menu-main-menu-container{ display:inline-block;}
+		.nav {
+			
+			display:inline-block;
+			float:none;
+			
+			margin-top: 3em;
+			li {
+				display:inline-block;
+				margin:1em;
+				&:first-child {
+					padding-right: 0;
+   					 margin-left: 0px;
+				}
+			a {
+				color:#fff;
+				text-transform: uppercase;
+				font-size:3em;
+				font-weight:bold;
+				text-align: center;
+				line-height: 2em;
+				@include hex (6em, rgba($pink,1), vertical, true);
+				display:inline-block;
+				height:2.5em !important;
+			}
+		}
+		}
+	}
+	small {
+	    position: absolute;
+    background: #000;
+    font-size: 2em;
+    bottom: -1.5em;
+    left: 5%;
+    line-height: 0.9em;
+    width: 67%;
+    color: #fff;
+    letter-spacing: 6px;
+    padding: .3em 1em 0.2em 1em;
+    font-weight: 100;
+    content: "";
+    text-transform: uppercase;
+	    &:before {
+	    	$size-dis: 1.4em * 2;
+	    	content:"";
+			@include triangle($size-dis, #000, 'down');
+			position: absolute;
+			right:-$size-dis / 2;
+			top: 0px;
+    		z-index: -1;
+	    }
+	    &:after {
+	    	$size-dis: 1.4em * 2;
+	    	content:"";
+			@include triangle($size-dis, #000, 'up');
+			position: absolute;
+			left:-$size-dis / 2; 
+			bottom: 0px;
+    		z-index: -1;
+
+	    }
+	}
+}

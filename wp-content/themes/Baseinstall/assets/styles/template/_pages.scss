@@ -1,0 +1,22 @@
+#main-title {
+	padding-top:4em;
+	padding-bottom:4em;
+
+	h4 {
+		    font-size: 3.7em;
+    		font-weight: 0;
+    		margin-bottom: 0px;
+	}
+	h2 {
+		    margin-top: 0px;
+    		font-weight: 900;
+	}
+}
+
+.colored-para {
+	min-height:3em;
+	background-color:$pink;
+	h5 {
+		min-height: 1em;
+	}
+}
