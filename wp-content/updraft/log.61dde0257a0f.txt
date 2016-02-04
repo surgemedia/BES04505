@@ -1,0 +1,358 @@
+0000.000 (0) Opened log file at time: Thu, 04 Feb 2016 07:14:20 +0000 on http://localhost/Bespokemoney
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.23 WP: 4.4.2 PHP: 5.6.10 (Darwin aegirs-iMac.local 15.0.0 Darwin Kernel Version 15.0.0: Wed Aug 26 16:57:32 PDT 2015; root:xnu-3247.1.106~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.2M | 31.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 824593.8 Mb
+0000.025 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.106 (0) Requesting semaphore lock (fd)
+0000.142 (0) Set semaphore last lock (fd) time to 2016-02-04 07:14:20
+0000.143 (0) Semaphore lock (fd) complete
+0000.233 (0) Backup run: resumption=0, nonce=61dde0257a0f, begun at=1454570060 (0s ago), job type=backup
+0000.235 (0) Scheduling a resumption (1) after 300 seconds (1454570360) in case this run gets aborted
+0000.284 (0) Checking if we have a zip executable available
+0000.285 (0) Testing: /usr/bin/zip
+0000.291 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.292 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.293 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.294 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.295 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.302 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.304 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.318 (0) Working binary zip found: /usr/bin/zip
+0000.320 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.340 (0) Creation of backups of directories: beginning
+0000.354 (0) Beginning creation of dump of plugins (split every: 400 Mb)
+0000.531 (0) Total entities for the zip file: 223 directories, 1657 files (0 skipped as non-modified), 30.1 Mb
+0000.580 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.666 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.673 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.679 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.707 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 Mb, 1657 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.000 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: size is now: 3.30 Mb
+0002.007 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 600 files added (on-disk size: 3418.7 Kb)
+0002.012 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 700 files added (on-disk size: 3418.7 Kb)
+0002.022 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 800 files added (on-disk size: 3418.7 Kb)
+0002.028 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 900 files added (on-disk size: 3418.7 Kb)
+0002.035 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1000 files added (on-disk size: 3418.7 Kb)
+0002.036 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.2 Mb, 1657 files batched, 501 (1002) added so far); re-opening (prior size: 3418.7 Kb)
+0004.763 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: size is now: 9.20 Mb
+0004.879 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1100 files added (on-disk size: 9421.8 Kb)
+0004.886 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1200 files added (on-disk size: 9421.8 Kb)
+0004.893 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1300 files added (on-disk size: 9421.8 Kb)
+0004.909 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1400 files added (on-disk size: 9421.8 Kb)
+0004.917 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1500 files added (on-disk size: 9421.8 Kb)
+0004.919 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 Mb, 1657 files batched, 501 (1503) added so far); re-opening (prior size: 9421.8 Kb)
+0005.404 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip.tmp: 1600 files added (on-disk size: 10132.8 Kb)
+0005.929 (0) Created plugins zip (0) - 10304.8 Kb in 5.6 s (1849.1 Kb/s) (SHA1 checksum: 3d5dcbfdc318dab7550801cf4e096d1e32390154)
+0005.932 (0) Beginning creation of dump of themes (split every: 400 Mb)
+0006.696 (0) Total entities for the zip file: 2440 directories, 14278 files (0 skipped as non-modified), 68.9 Mb
+0006.798 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0006.828 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0006.865 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0006.873 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0006.883 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0006.889 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 Mb, 14278 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0010.348 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: size is now: 2.50 Mb
+0010.380 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 600 files added (on-disk size: 2604.1 Kb)
+0010.401 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 700 files added (on-disk size: 2604.1 Kb)
+0010.407 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 800 files added (on-disk size: 2604.1 Kb)
+0010.412 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 900 files added (on-disk size: 2604.1 Kb)
+0010.418 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1000 files added (on-disk size: 2604.1 Kb)
+0010.419 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.6 Mb, 14278 files batched, 501 (1002) added so far); re-opening (prior size: 2604.1 Kb)
+0013.475 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1100 files added (on-disk size: 2959.5 Kb)
+0013.616 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1200 files added (on-disk size: 2959.5 Kb)
+0013.630 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1300 files added (on-disk size: 2959.5 Kb)
+0013.649 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1400 files added (on-disk size: 2959.5 Kb)
+0013.656 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1500 files added (on-disk size: 2959.5 Kb)
+0013.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 Mb, 14278 files batched, 501 (1503) added so far); re-opening (prior size: 2959.5 Kb)
+0016.427 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1600 files added (on-disk size: 3326.7 Kb)
+0016.433 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1700 files added (on-disk size: 3326.7 Kb)
+0016.440 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1800 files added (on-disk size: 3326.7 Kb)
+0016.523 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 1900 files added (on-disk size: 3326.7 Kb)
+0016.530 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2000 files added (on-disk size: 3326.7 Kb)
+0016.532 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 Mb, 14278 files batched, 501 (2004) added so far); re-opening (prior size: 3326.7 Kb)
+0020.800 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: size is now: 5.30 Mb
+0020.855 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2100 files added (on-disk size: 5408.1 Kb)
+0020.889 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2200 files added (on-disk size: 5408.1 Kb)
+0020.896 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2300 files added (on-disk size: 5408.1 Kb)
+0020.902 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2400 files added (on-disk size: 5408.1 Kb)
+0020.909 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2500 files added (on-disk size: 5408.1 Kb)
+0020.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 Mb, 14278 files batched, 501 (2505) added so far); re-opening (prior size: 5408.1 Kb)
+0027.743 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2600 files added (on-disk size: 6190.6 Kb)
+0027.748 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2700 files added (on-disk size: 6190.6 Kb)
+0027.753 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2800 files added (on-disk size: 6190.6 Kb)
+0027.761 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 2900 files added (on-disk size: 6190.6 Kb)
+0027.768 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3000 files added (on-disk size: 6190.6 Kb)
+0027.769 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 Mb, 14278 files batched, 501 (3006) added so far); re-opening (prior size: 6190.6 Kb)
+0031.227 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3100 files added (on-disk size: 7122.6 Kb)
+0031.234 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3200 files added (on-disk size: 7122.6 Kb)
+0031.241 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3300 files added (on-disk size: 7122.6 Kb)
+0031.248 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3400 files added (on-disk size: 7122.6 Kb)
+0031.254 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3500 files added (on-disk size: 7122.6 Kb)
+0031.255 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 Mb, 14278 files batched, 501 (3507) added so far); re-opening (prior size: 7122.6 Kb)
+0042.148 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3600 files added (on-disk size: 7855.7 Kb)
+0042.162 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3700 files added (on-disk size: 7855.7 Kb)
+0042.181 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3800 files added (on-disk size: 7855.7 Kb)
+0042.187 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 3900 files added (on-disk size: 7855.7 Kb)
+0042.237 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4000 files added (on-disk size: 7855.7 Kb)
+0042.239 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 Mb, 14278 files batched, 501 (4008) added so far); re-opening (prior size: 7855.7 Kb)
+0060.577 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4100 files added (on-disk size: 8361.1 Kb)
+0060.640 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4200 files added (on-disk size: 8361.1 Kb)
+0060.685 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4300 files added (on-disk size: 8361.1 Kb)
+0060.698 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4400 files added (on-disk size: 8361.1 Kb)
+0060.710 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4500 files added (on-disk size: 8361.1 Kb)
+0060.760 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 Mb, 14278 files batched, 501 (4509) added so far); re-opening (prior size: 8361.1 Kb)
+0065.146 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4600 files added (on-disk size: 8610.7 Kb)
+0065.152 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4700 files added (on-disk size: 8610.7 Kb)
+0065.157 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4800 files added (on-disk size: 8610.7 Kb)
+0065.163 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 4900 files added (on-disk size: 8610.7 Kb)
+0065.169 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5000 files added (on-disk size: 8610.7 Kb)
+0065.171 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 Mb, 14278 files batched, 501 (5010) added so far); re-opening (prior size: 8610.7 Kb)
+0069.735 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5100 files added (on-disk size: 9198.1 Kb)
+0069.740 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5200 files added (on-disk size: 9198.1 Kb)
+0069.768 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5300 files added (on-disk size: 9198.1 Kb)
+0069.892 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5400 files added (on-disk size: 9198.1 Kb)
+0069.897 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5500 files added (on-disk size: 9198.1 Kb)
+0069.898 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 Mb, 14278 files batched, 501 (5511) added so far); re-opening (prior size: 9198.1 Kb)
+0073.120 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5600 files added (on-disk size: 9850.4 Kb)
+0073.151 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5700 files added (on-disk size: 9850.4 Kb)
+0073.158 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5800 files added (on-disk size: 9850.4 Kb)
+0073.165 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 5900 files added (on-disk size: 9850.4 Kb)
+0073.171 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6000 files added (on-disk size: 9850.4 Kb)
+0073.266 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 Mb, 14278 files batched, 501 (6012) added so far); re-opening (prior size: 9850.4 Kb)
+0074.829 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6100 files added (on-disk size: 10645.6 Kb)
+0074.835 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6200 files added (on-disk size: 10645.6 Kb)
+0074.842 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6300 files added (on-disk size: 10645.6 Kb)
+0074.919 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6400 files added (on-disk size: 10645.6 Kb)
+0074.926 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6500 files added (on-disk size: 10645.6 Kb)
+0074.928 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 Mb, 14278 files batched, 501 (6513) added so far); re-opening (prior size: 10645.6 Kb)
+0078.281 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6600 files added (on-disk size: 11600.2 Kb)
+0078.288 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6700 files added (on-disk size: 11600.2 Kb)
+0078.295 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6800 files added (on-disk size: 11600.2 Kb)
+0078.302 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 6900 files added (on-disk size: 11600.2 Kb)
+0078.310 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7000 files added (on-disk size: 11600.2 Kb)
+0078.312 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 Mb, 14278 files batched, 501 (7014) added so far); re-opening (prior size: 11600.2 Kb)
+0086.224 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7100 files added (on-disk size: 13077.1 Kb)
+0086.247 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7200 files added (on-disk size: 13077.1 Kb)
+0086.255 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7300 files added (on-disk size: 13077.1 Kb)
+0086.263 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7400 files added (on-disk size: 13077.1 Kb)
+0086.270 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7500 files added (on-disk size: 13077.1 Kb)
+0086.272 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 Mb, 14278 files batched, 501 (7515) added so far); re-opening (prior size: 13077.1 Kb)
+0094.687 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7600 files added (on-disk size: 13627.2 Kb)
+0094.713 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7700 files added (on-disk size: 13627.2 Kb)
+0094.765 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7800 files added (on-disk size: 13627.2 Kb)
+0094.780 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 7900 files added (on-disk size: 13627.2 Kb)
+0094.796 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8000 files added (on-disk size: 13627.2 Kb)
+0094.901 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 Mb, 14278 files batched, 501 (8016) added so far); re-opening (prior size: 13627.2 Kb)
+0101.261 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8100 files added (on-disk size: 14844.4 Kb)
+0101.379 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8200 files added (on-disk size: 14844.4 Kb)
+0101.405 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8300 files added (on-disk size: 14844.4 Kb)
+0101.439 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8400 files added (on-disk size: 14844.4 Kb)
+0101.530 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8500 files added (on-disk size: 14844.4 Kb)
+0101.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 Mb, 14278 files batched, 501 (8517) added so far); re-opening (prior size: 14844.4 Kb)
+0116.912 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8600 files added (on-disk size: 15639 Kb)
+0116.919 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8700 files added (on-disk size: 15639 Kb)
+0116.928 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8800 files added (on-disk size: 15639 Kb)
+0116.952 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 8900 files added (on-disk size: 15639 Kb)
+0116.986 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9000 files added (on-disk size: 15639 Kb)
+0116.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 Mb, 14278 files batched, 501 (9018) added so far); re-opening (prior size: 15639 Kb)
+0120.650 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9100 files added (on-disk size: 15916.3 Kb)
+0120.655 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9200 files added (on-disk size: 15916.3 Kb)
+0120.682 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9300 files added (on-disk size: 15916.3 Kb)
+0120.687 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9400 files added (on-disk size: 15916.3 Kb)
+0120.692 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9500 files added (on-disk size: 15916.3 Kb)
+0120.694 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 Mb, 14278 files batched, 501 (9519) added so far); re-opening (prior size: 15916.3 Kb)
+0124.056 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9600 files added (on-disk size: 16379.2 Kb)
+0124.088 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9700 files added (on-disk size: 16379.2 Kb)
+0124.096 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9800 files added (on-disk size: 16379.2 Kb)
+0124.102 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 9900 files added (on-disk size: 16379.2 Kb)
+0124.109 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10000 files added (on-disk size: 16379.2 Kb)
+0124.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 Mb, 14278 files batched, 501 (10020) added so far); re-opening (prior size: 16379.2 Kb)
+0129.967 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10100 files added (on-disk size: 16751.9 Kb)
+0129.972 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10200 files added (on-disk size: 16751.9 Kb)
+0129.978 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10300 files added (on-disk size: 16751.9 Kb)
+0129.985 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10400 files added (on-disk size: 16751.9 Kb)
+0129.992 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10500 files added (on-disk size: 16751.9 Kb)
+0130.028 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 Mb, 14278 files batched, 501 (10521) added so far); re-opening (prior size: 16751.9 Kb)
+0137.162 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10600 files added (on-disk size: 17618.5 Kb)
+0137.175 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10700 files added (on-disk size: 17618.5 Kb)
+0137.192 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10800 files added (on-disk size: 17618.5 Kb)
+0137.220 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 10900 files added (on-disk size: 17618.5 Kb)
+0137.368 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11000 files added (on-disk size: 17618.5 Kb)
+0137.383 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 Mb, 14278 files batched, 501 (11022) added so far); re-opening (prior size: 17618.5 Kb)
+0146.223 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11100 files added (on-disk size: 18916.6 Kb)
+0146.229 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11200 files added (on-disk size: 18916.6 Kb)
+0146.235 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11300 files added (on-disk size: 18916.6 Kb)
+0146.240 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11400 files added (on-disk size: 18916.6 Kb)
+0146.249 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11500 files added (on-disk size: 18916.6 Kb)
+0146.252 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 Mb, 14278 files batched, 501 (11523) added so far); re-opening (prior size: 18916.6 Kb)
+0151.572 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11600 files added (on-disk size: 19989.9 Kb)
+0151.687 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11700 files added (on-disk size: 19989.9 Kb)
+0151.815 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11800 files added (on-disk size: 19989.9 Kb)
+0151.821 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 11900 files added (on-disk size: 19989.9 Kb)
+0151.839 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12000 files added (on-disk size: 19989.9 Kb)
+0151.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 Mb, 14278 files batched, 501 (12024) added so far); re-opening (prior size: 19989.9 Kb)
+0154.443 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12100 files added (on-disk size: 20307.5 Kb)
+0154.452 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12200 files added (on-disk size: 20307.5 Kb)
+0154.460 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12300 files added (on-disk size: 20307.5 Kb)
+0154.542 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12400 files added (on-disk size: 20307.5 Kb)
+0154.549 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12500 files added (on-disk size: 20307.5 Kb)
+0154.552 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 Mb, 14278 files batched, 501 (12525) added so far); re-opening (prior size: 20307.5 Kb)
+0158.896 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12600 files added (on-disk size: 20806.3 Kb)
+0158.901 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12700 files added (on-disk size: 20806.3 Kb)
+0158.950 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12800 files added (on-disk size: 20806.3 Kb)
+0158.961 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 12900 files added (on-disk size: 20806.3 Kb)
+0158.967 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13000 files added (on-disk size: 20806.3 Kb)
+0158.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 Mb, 14278 files batched, 501 (13026) added so far); re-opening (prior size: 20806.3 Kb)
+0169.381 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13100 files added (on-disk size: 22638.6 Kb)
+0169.386 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13200 files added (on-disk size: 22638.6 Kb)
+0169.393 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13300 files added (on-disk size: 22638.6 Kb)
+0169.400 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13400 files added (on-disk size: 22638.6 Kb)
+0169.407 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13500 files added (on-disk size: 22638.6 Kb)
+0169.409 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 Mb, 14278 files batched, 501 (13527) added so far); re-opening (prior size: 22638.6 Kb)
+0177.310 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13600 files added (on-disk size: 23619.1 Kb)
+0177.315 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13700 files added (on-disk size: 23619.1 Kb)
+0177.321 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13800 files added (on-disk size: 23619.1 Kb)
+0177.326 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 13900 files added (on-disk size: 23619.1 Kb)
+0177.332 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 14000 files added (on-disk size: 23619.1 Kb)
+0177.335 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 Mb, 14278 files batched, 501 (14028) added so far); re-opening (prior size: 23619.1 Kb)
+0184.177 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 14100 files added (on-disk size: 26428.9 Kb)
+0184.182 (0) Zip: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip.tmp: 14200 files added (on-disk size: 26428.9 Kb)
+0187.868 (0) Created themes zip (0) - 27137.9 Kb in 181.9 s (149.2 Kb/s) (SHA1 checksum: 071c642bec0b023e7c2b866bb107d2178762c198)
+0187.890 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0187.892 (0) Looking for candidates to back up in: /Users/surge/Documents/MAMP/Bespokemoney/wp-content/uploads
+0187.893 (0) finding files: 2016: adding to list (1)
+0187.894 (0) Beginning creation of dump of uploads (split every: 400 Mb)
+0187.915 (0) Total entities for the zip file: 2 directories, 32 files (0 skipped as non-modified), 14 Mb
+0188.189 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-uploads.zip.tmp: size is now: 14.00 Mb
+0188.501 (0) Created uploads zip (0) - 14307.7 Kb in 0.6 s (23627.8 Kb/s) (SHA1 checksum: 4089d3a54b343d9dc5178502c783f660d31eb0fd)
+0188.522 (0) Beginning backup of other directories found in the content directory (index: 0)
+0188.523 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0188.525 (0) Looking for candidates to back up in: /Users/surge/Documents/MAMP/Bespokemoney/wp-content
+0188.526 (0) finding files: .DS_Store: adding to list (1)
+0188.527 (0) finding files: index.php: adding to list (2)
+0188.528 (0) finding files: plugins: skipping: this is the plugins directory
+0188.529 (0) finding files: themes: skipping: this is the themes directory
+0188.530 (0) finding files: updraft: skipping: this is the updraft directory
+0188.530 (0) finding files: upgrade: skipping: excluded by options
+0188.531 (0) finding files: uploads: skipping: this is the uploads directory
+0188.536 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 Mb
+0188.591 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-others.zip.tmp: size is now: 0.00 Mb
+0188.627 (0) Created others zip (0) - 1.8 Kb in 0.1 s (18.9 Kb/s) (SHA1 checksum: 5d1dde2d606a61beeb2dde140ac3f2999632fb3c)
+0188.672 (0) Saving backup status to database (elements: 8)
+0188.675 (0) Beginning creation of database dump (WordPress DB)
+0189.284 (0) Table AIz5oVKgL1_options: Total expected rows (approximate): 463
+0189.590 (0) Table AIz5oVKgL1_options: Total rows added: 184 in 0.24 seconds
+0189.593 (0) Table AIz5oVKgL1_options: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_options.table.gz - 107.6 Kb)
+0189.681 (0) Table AIz5oVKgL1_users: Total expected rows (approximate): 1
+0189.700 (0) Table AIz5oVKgL1_users: Total rows added: 1 in 0.02 seconds
+0189.702 (0) Table AIz5oVKgL1_users: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_users.table.gz - 0.5 Kb)
+0189.726 (0) Table AIz5oVKgL1_usermeta: Total expected rows (approximate): 25
+0189.730 (0) Table AIz5oVKgL1_usermeta: Total rows added: 25 in 0.00 seconds
+0189.732 (0) Table AIz5oVKgL1_usermeta: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_usermeta.table.gz - 1.5 Kb)
+0189.788 (0) Table AIz5oVKgL1_commentmeta: Total expected rows (approximate): 0
+0189.802 (0) Table AIz5oVKgL1_commentmeta: Total rows added: 0 in 0.01 seconds
+0189.815 (0) Table AIz5oVKgL1_commentmeta: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_commentmeta.table.gz - 0.4 Kb)
+0189.915 (0) Table AIz5oVKgL1_comments: Total expected rows (approximate): 1
+0189.932 (0) Table AIz5oVKgL1_comments: Total rows added: 1 in 0.02 seconds
+0189.972 (0) Table AIz5oVKgL1_comments: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_comments.table.gz - 0.7 Kb)
+0190.076 (0) Table AIz5oVKgL1_links: Total expected rows (approximate): 0
+0190.124 (0) Table AIz5oVKgL1_links: Total rows added: 0 in 0.05 seconds
+0190.125 (0) Table AIz5oVKgL1_links: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_links.table.gz - 0.4 Kb)
+0190.132 (0) Table AIz5oVKgL1_postmeta: Total expected rows (approximate): 639
+0190.163 (0) Table AIz5oVKgL1_postmeta: Total rows added: 584 in 0.03 seconds
+0190.185 (0) Table AIz5oVKgL1_postmeta: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_postmeta.table.gz - 7.2 Kb)
+0190.207 (0) Table AIz5oVKgL1_posts: Total expected rows (approximate): 89
+0190.249 (0) Table AIz5oVKgL1_posts: Total rows added: 74 in 0.02 seconds
+0190.254 (0) Table AIz5oVKgL1_posts: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_posts.table.gz - 5.8 Kb)
+0190.364 (0) Table AIz5oVKgL1_term_relationships: Total expected rows (approximate): 4
+0190.366 (0) Table AIz5oVKgL1_term_relationships: Total rows added: 4 in 0.00 seconds
+0190.368 (0) Table AIz5oVKgL1_term_relationships: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_term_relationships.table.gz - 0.4 Kb)
+0190.461 (0) Table AIz5oVKgL1_term_taxonomy: Total expected rows (approximate): 2
+0190.493 (0) Table AIz5oVKgL1_term_taxonomy: Total rows added: 2 in 0.02 seconds
+0190.509 (0) Table AIz5oVKgL1_term_taxonomy: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_term_taxonomy.table.gz - 0.4 Kb)
+0190.654 (0) Table AIz5oVKgL1_termmeta: Total expected rows (approximate): 0
+0190.660 (0) Table AIz5oVKgL1_termmeta: Total rows added: 0 in 0.01 seconds
+0190.662 (0) Table AIz5oVKgL1_termmeta: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_termmeta.table.gz - 0.4 Kb)
+0190.740 (0) Table AIz5oVKgL1_terms: Total expected rows (approximate): 2
+0190.759 (0) Table AIz5oVKgL1_terms: Total rows added: 2 in 0.00 seconds
+0190.763 (0) Table AIz5oVKgL1_terms: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_terms.table.gz - 0.4 Kb)
+0190.841 (0) Table AIz5oVKgL1_rg_form: Total expected rows (approximate): 1
+0190.845 (0) Table AIz5oVKgL1_rg_form: Total rows added: 1 in 0.00 seconds
+0190.848 (0) Table AIz5oVKgL1_rg_form: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_form.table.gz - 0.4 Kb)
+0190.922 (0) Table AIz5oVKgL1_rg_form_meta: Total expected rows (approximate): 1
+0190.934 (0) Table AIz5oVKgL1_rg_form_meta: Total rows added: 1 in 0.01 seconds
+0190.944 (0) Table AIz5oVKgL1_rg_form_meta: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_form_meta.table.gz - 1.6 Kb)
+0190.979 (0) Table AIz5oVKgL1_rg_form_view: Total expected rows (approximate): 0
+0190.992 (0) Table AIz5oVKgL1_rg_form_view: Total rows added: 0 in 0.00 seconds
+0190.993 (0) Table AIz5oVKgL1_rg_form_view: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_form_view.table.gz - 0.4 Kb)
+0191.221 (0) Table AIz5oVKgL1_rg_incomplete_submissions: Total expected rows (approximate): 0
+0191.303 (0) Table AIz5oVKgL1_rg_incomplete_submissions: Total rows added: 0 in 0.04 seconds
+0191.351 (0) Table AIz5oVKgL1_rg_incomplete_submissions: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_incomplete_submissions.table.gz - 0.4 Kb)
+0191.531 (0) Table AIz5oVKgL1_rg_lead: Total expected rows (approximate): 0
+0191.547 (0) Table AIz5oVKgL1_rg_lead: Total rows added: 0 in 0.00 seconds
+0191.583 (0) Table AIz5oVKgL1_rg_lead: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead.table.gz - 0.5 Kb)
+0191.670 (0) Table AIz5oVKgL1_rg_lead_detail: Total expected rows (approximate): 0
+0191.731 (0) Table AIz5oVKgL1_rg_lead_detail: Total rows added: 0 in 0.04 seconds
+0191.767 (0) Table AIz5oVKgL1_rg_lead_detail: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_detail.table.gz - 0.4 Kb)
+0191.831 (0) Table AIz5oVKgL1_rg_lead_detail_long: Total expected rows (approximate): 0
+0191.846 (0) Table AIz5oVKgL1_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0191.854 (0) Table AIz5oVKgL1_rg_lead_detail_long: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_detail_long.table.gz - 0.3 Kb)
+0191.893 (0) Table AIz5oVKgL1_rg_lead_meta: Total expected rows (approximate): 0
+0191.934 (0) Table AIz5oVKgL1_rg_lead_meta: Total rows added: 0 in 0.02 seconds
+0191.935 (0) Table AIz5oVKgL1_rg_lead_meta: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_meta.table.gz - 0.4 Kb)
+0192.108 (0) Table AIz5oVKgL1_rg_lead_notes: Total expected rows (approximate): 0
+0192.128 (0) Table AIz5oVKgL1_rg_lead_notes: Total rows added: 0 in 0.01 seconds
+0192.129 (0) Table AIz5oVKgL1_rg_lead_notes: finishing file (backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_notes.table.gz - 0.4 Kb)
+0192.211 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_options.table.gz (1/21): adding to final database dump
+0192.266 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_users.table.gz (2/21): adding to final database dump
+0192.297 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_usermeta.table.gz (3/21): adding to final database dump
+0192.301 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_commentmeta.table.gz (4/21): adding to final database dump
+0192.303 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_comments.table.gz (5/21): adding to final database dump
+0192.305 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_links.table.gz (6/21): adding to final database dump
+0192.306 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_postmeta.table.gz (7/21): adding to final database dump
+0192.314 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_posts.table.gz (8/21): adding to final database dump
+0192.337 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_term_relationships.table.gz (9/21): adding to final database dump
+0192.353 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_term_taxonomy.table.gz (10/21): adding to final database dump
+0192.390 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_termmeta.table.gz (11/21): adding to final database dump
+0192.403 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_terms.table.gz (12/21): adding to final database dump
+0192.424 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_form.table.gz (13/21): adding to final database dump
+0192.427 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_form_meta.table.gz (14/21): adding to final database dump
+0192.430 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_form_view.table.gz (15/21): adding to final database dump
+0192.450 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_incomplete_submissions.table.gz (16/21): adding to final database dump
+0192.452 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead.table.gz (17/21): adding to final database dump
+0192.477 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_detail.table.gz (18/21): adding to final database dump
+0192.479 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_detail_long.table.gz (19/21): adding to final database dump
+0192.496 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_meta.table.gz (20/21): adding to final database dump
+0192.503 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db-table-AIz5oVKgL1_rg_lead_notes.table.gz (21/21): adding to final database dump
+0192.564 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db.gz: finished writing out complete database file (104 Kb)
+0192.592 (0) Total database tables backed up: 21 (backup_2016-02-04-0714_bespoke_61dde0257a0f-db.gz, size: 128367, checksum (SHA1): e1e2eb95366641e75838c5c588f31d8a30a5a7da)
+0192.637 (0) Saving backup history
+0192.657 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0192.659 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0192.660 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0192.661 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0192.748 (0) backup_2016-02-04-0714_bespoke_61dde0257a0f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0192.751 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0192.822 (0) Cloud backup selection (1/1): none (last)
+0192.823 (0) No remote despatch: user chose no remote backup service
+0192.855 (0) Recording as successfully uploaded: backup_2016-02-04-0714_bespoke_61dde0257a0f-plugins.zip (67c77b50df9f3daf90f669de73b289b3)
+0192.944 (0) Recording as successfully uploaded: backup_2016-02-04-0714_bespoke_61dde0257a0f-themes.zip (34f84734cc803b843c2562e80e43e942)
+0193.026 (0) Recording as successfully uploaded: backup_2016-02-04-0714_bespoke_61dde0257a0f-uploads.zip (170010269ba58a0e6100be9b75a812f4)
+0193.092 (0) Recording as successfully uploaded: backup_2016-02-04-0714_bespoke_61dde0257a0f-others.zip (4c437916139a9f31ed47891761b04ec3)
+0193.105 (0) Recording as successfully uploaded: backup_2016-02-04-0714_bespoke_61dde0257a0f-db.gz (28f4b76348f265fe2edadaf439a4f40f)
+0193.111 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0193.113 (0) Number of backup sets in history: 1
+0193.122 (0) Examining backup set with datestamp: 1454570060 (Feb 04 2016 07:14:20)
+0193.132 (0) This backup set (1454570060) is the backup set just made, so will not be deleted.
+0193.133 (0) This backup set (1454570060) is the backup set just made, so will not be deleted, despite being over the retain limit.
+0193.134 (0) This backup set (1454570060) is the backup set just made, so will not be deleted, despite being over the retain limit.
+0193.135 (0) This backup set (1454570060) is the backup set just made, so will not be deleted, despite being over the retain limit.
+0193.135 (0) This backup set (1454570060) is the backup set just made, so will not be deleted, despite being over the retain limit.
+0193.135 (0) 1454570060: this backup set remains non-empty (1/1); will retain in history
+0193.137 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0193.158 (0) Resume backup (61dde0257a0f, 0): finish run
+0193.171 (0) Decremented the semaphore (fd) by 1
+0193.172 (0) Semaphore (fd) unlocked
+0193.173 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0193.180 (0) No email will/can be sent - the user has not configured an email address.
+0193.220 (0) The backup apparently succeeded and is now complete

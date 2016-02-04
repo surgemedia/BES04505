@@ -22,6 +22,11 @@
 // Include local configuration
 if (file_exists(dirname(__FILE__) . '/local-config.php')) {
 	include(dirname(__FILE__) . '/local-config.php');
+	define('WP_HOME','http://localhost/Bespokemoney/');
+	define('WP_SITEURL','http://localhost/Bespokemoney/');
+} else {
+	define('WP_HOME','http://bespokemoney.com.au');
+	define('WP_SITEURL','http://bespokemoney.com.au');
 }
 
 
