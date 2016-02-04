@@ -1,10 +1,15 @@
 .banner {
 	position:relative;
+
 	 .brand {
-		    	 margin-right: 0px;
+		    	margin-right: 0px;
 			    padding-right:0px;
 			    overflow:hidden;
-			    margin-left:3.5em;
+			    margin-left:9.5em;
+			    object {
+			    	 position: relative;
+    				z-index: -1;
+			    }
 		    }
 	.nav-primary {
 		    margin-top: 2.8em;
@@ -34,6 +39,7 @@
 				font-weight:bold;
 				text-align: center;
 				line-height: 2em;
+				text-indent: -4px;
 				@include hex (6em, rgba($pink,1), vertical, true);
 				display:inline-block;
 				height:2.5em !important;

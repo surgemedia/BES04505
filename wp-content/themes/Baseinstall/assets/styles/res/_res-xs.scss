@@ -1,0 +1,156 @@
+.banner {
+#dropdown-toggle {
+		a.brand {
+			$logo-size:14vh;
+			// @extend .col-sm-2;
+			@extend .pull-left;
+			height:$logo-size !important;
+			width:auto !important;
+			overflow: hidden;
+			padding: 0px !important;
+			margin: 0px !important;
+			object {
+				height:$logo-size !important;
+				width:auto !important;
+				overflow: hidden;
+			}
+
+		}
+		button.navbar-toggle {
+			margin-top:5.5em !important;
+			@extend .col-sm-2;
+			@extend .pull-right;
+				@include hex (8.1em, rgba(#000,1), vertical, true);
+				transition: 0.3s ease background;
+
+			.icon-bar{
+				background-color:#fff;
+				width:70%;
+				padding:0.2em;
+				margin:0em 0em 1em 0em;
+				position:absolute;
+				transform:rotate(45deg);
+				left:1.2em;
+				transition: 0.3s ease transform;
+				& + .icon-bar {
+					position:absolute;
+					transform:rotate(-45deg);
+					right:1em;
+					transition: 0.3s ease transform;
+				}
+			}
+			&:before{
+				border-bottom:2em  solid #000 !important; 
+				transition: 0.3s ease all;
+
+				top:-2em;
+			}
+			&:after{ 
+					border-top:2em solid #000  !important;
+				transition: 0.3s ease all;
+
+					bottom:-2em;
+			}
+			&.collapsed {
+					@include hex (8.1em, rgba($pink,1), vertical, true);
+					.icon-bar{
+						background-color:#fff;
+						width:100%;
+						padding:0.2em;
+						margin:0em 0em 1em 0em;
+						position:relative;
+						transform:rotate(0deg);;
+						left:auto;
+						transition: 0.3s ease transform;
+						& + .icon-bar {
+							position:relative;
+							transition: 0.3s ease transform;
+							transform:rotate(0deg);
+							right:auto;
+						}
+				}
+				&:before {
+					border-bottom:2em  solid $pink !important; 
+					transition: 0.3s ease all;
+					top:-2em;
+				}
+				&:after{ 
+						border-top:2em solid $pink  !important;
+						transition: 0.3s ease all;
+						bottom:-2em;
+				}
+				span {
+					background-color:#fff;
+					width:100%;
+					padding:0.2em;
+					margin:0em 0em 1em 0em;
+				}
+			}
+		}
+	}
+		
+		
+		#main-nav {
+			padding: 0em 4em 4em;
+		    position: absolute;
+		    width: 100%;
+		    margin: 0px;
+		    top: 17vh;
+		   
+		    background: $pink  !important;
+		    .menu-main-menu-container {
+				width:100%;
+		    }
+		    	#menu-main-menu {
+		    		width:100%;
+				li {
+						width:100%;
+						padding:0px;
+						margin: 0px;
+
+					a {
+						width:100%;
+						margin: 0px;
+						text-align:center;
+						&:before {
+							display:none;
+						}
+						&:after {
+							display:none;
+						}
+					}
+				}
+			} 
+		}
+} 
+
+body {
+	background-size:auto 50vh;
+}
+/*=================================
+=            Home Page            =
+=================================*/
+.jumbotron {
+	font-size:1em;
+	margin: 0;
+	width:100%;
+	height:auto;
+	h1 {
+		font-size:4em;
+	}
+	a {
+		font-size:2em;
+		margin: 0;
+		padding: 0;
+	}
+}
+.colored-para {
+	.fake-header {
+			margin-top:0em;
+			padding-top:0px;
+		}
+}
+
+
+
+

@@ -1,5 +1,5 @@
-<footer class="content-info">
+<footer id="footer">
   <div class="container">
-    <?php dynamic_sidebar('sidebar-footer'); ?>
+     <?php echo date("Y"); ?> &copy; BESPOKE MONEY
   </div>
 </footer>

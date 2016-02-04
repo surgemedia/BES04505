@@ -16,8 +16,6 @@
 @import "molecule/jumbotron";
 @import "molecule/slider";
 
-
-
 @import "template/grid";
 @import "template/wp-classes";
 
@@ -26,3 +24,24 @@
 
 @import "template/pages";
 @import "template/tinymce";
+
+
+
+@media (max-width: $screen-sm-max) {
+	@import "res/res-xs-sm";
+}
+@media (max-width: $screen-xs-max) {
+	@import "res/res-xs";
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	@import "res/res-sm";
+}
+@media (min-width: $screen-md-min) {
+	@import "res/res-md-lg";
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	@import "res/res-md";
+}
+@media (min-width: $screen-lg-min) {
+	@import "res/res-lg";
+}

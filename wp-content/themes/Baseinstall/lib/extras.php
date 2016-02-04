@@ -37,10 +37,10 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 ======================================*/
 $custom_includes = [
   'lib/function-debug.php',
-  'lib/function-includePart.php',   
-
-  // 'lib/gravity_forms-v5.php',    // Scripts and stylesheets
-  // 'lib/function-display-gravity-form.php',    // Scripts and stylesheets
+  'lib/function-includePart.php',     
+  'lib/aq_resizer.php',     
+  'lib/gravity_forms-v5.php',    // Scripts and stylesheets
+  'lib/function-display-gravity-form.php',    // Scripts and stylesheets
   'lib/function-get_id_from_slug.php',   
   'lib/function-get-featured-image-url.php',   
   'lib/function-truncate-content.php',    

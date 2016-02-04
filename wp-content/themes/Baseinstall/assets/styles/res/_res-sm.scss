@@ -1,0 +1,37 @@
+.banner {
+	.nav-primary {
+		#menu-main-menu {
+			margin-top:5em;
+		}
+		#dropdown-toggle {
+			a.brand {
+			 margin-right:0em;
+			 margin-left:3em;
+			 width:20vw;
+			 object {
+			 	width:100%;
+			 	height:auto;
+			 }
+			}
+		}
+		 .nav li { 
+			 	margin: 0.7em;
+	    		font-size: 1em;
+			 a {
+				font-size:2.2em;
+			}
+		}
+	}
+}
+.jumbotron {
+	width:100vw;
+}
+body {
+	background-size:auto 100vh;
+}
+.colored-para {
+	.fake-header {
+			margin-top:0em;
+			padding-top:0px;
+		}
+}
