@@ -3,12 +3,12 @@
 	margin-top: 10em;
 		background-repeat: no-repeat;
 		overflow: hidden;
-		height:60vh;
+		height:60em;
 
 	.item {
 		background-repeat: no-repeat;
 		// background-size:cover;
-		min-height:60vh;
+		min-height:60em;
 		overflow:hidden;
 		transition: 0.3s all position;
 		&.active {

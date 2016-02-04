@@ -43,7 +43,7 @@ $image =  aq_resize($args[7], 1920,350,true,true,true);
 		</div>
 		</div>
 
-		<img src="<?php echo $image ?>" alt="">
+		<img class="img-responsive" src="<?php echo $image ?>" alt="">
 	</div>
 
 </section>

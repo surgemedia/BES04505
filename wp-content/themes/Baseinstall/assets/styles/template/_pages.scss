@@ -11,6 +11,12 @@
 		    margin-top: 0px;
     		font-weight: 900;
 	}
+	&.no-padding {
+		padding-bottom:0em;
+		.text-box {
+			padding-bottom:0em;
+		}
+	}
 }
 
 .colored-para {

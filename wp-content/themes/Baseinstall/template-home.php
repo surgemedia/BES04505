@@ -53,7 +53,7 @@ $text_columns = get_field('text_columns'); ?>
 <?php } ?>
 </div>
 <div class="container text-center">
-	<a href="" class="btn pink"> Contact Bespoke Money</a>
+	<a href="<?php the_field('call_to_action_link') ?>" class="btn pink"> <?php the_field('call_to_action') ?></a>
 </div>
 
 <?php includePart('components/organism-carosoul.php') ?>

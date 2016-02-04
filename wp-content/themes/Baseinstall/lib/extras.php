@@ -45,9 +45,8 @@ $custom_includes = [
   'lib/function-get-featured-image-url.php',   
   'lib/function-truncate-content.php',    
   'lib/acf-option-page.php',
-  'lib/function-svg-upload-able.php'
-
-
+  'lib/function-svg-upload-able.php',
+  'lib/function-hide-editor.php'
 ];
 
 foreach ($custom_includes as $file) {
