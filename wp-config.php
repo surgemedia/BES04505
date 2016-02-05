@@ -24,21 +24,25 @@ if (file_exists(dirname(__FILE__) . '/local-config.php')) {
 	include(dirname(__FILE__) . '/local-config.php');
 	define('WP_HOME','http://localhost/Bespokemoney/');
 	define('WP_SITEURL','http://localhost/Bespokemoney/');
+	$table_prefix  = 'AIz5oVKgL1_'; // <-- GENERATE A RANDOM PREFIX
+
 } else {
 	define('WP_HOME','http://bespokemoney.com.au');
 	define('WP_SITEURL','http://bespokemoney.com.au');
+	$table_prefix  = 'bpm_'; // <-- GENERATE A RANDOM PREFIX
+
 }
 
 
 // Global DB config
 if (!defined('DB_NAME')) {
-	define('DB_NAME', 'bespoke');
+	define('DB_NAME', 'bespokem_db');
 }
 if (!defined('DB_USER')) {
-	define('DB_USER', 'bespoke');
+	define('DB_USER', 'bespokem_admin');
 }
 if (!defined('DB_PASSWORD')) {
-	define('DB_PASSWORD', 'bespoke');
+	define('DB_PASSWORD', 'e8P`9u=G[V7?)nvW');
 }
 if (!defined('DB_HOST')) {
 	define('DB_HOST', 'localhost');
@@ -80,7 +84,6 @@ define( ‘DISALLOW_FILE_EDIT’, true );
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'AIz5oVKgL1_'; // <-- GENERATE A RANDOM PREFIX
 /**#@+
 * {@link http://passwordsgenerator.net/ WordPress.org secret-key service}
 */

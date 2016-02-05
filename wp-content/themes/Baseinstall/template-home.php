@@ -34,7 +34,9 @@ for ($i=0; $i < sizeof($colored_para); $i++) {
 		$colored_para[$i]['column_one'],
 		$colored_para[$i]['column_two'],
 		$colored_para[$i]['column_three'],
-		$colored_para[$i]['image']
+		$colored_para[$i]['image'],
+		$colored_para[$i]['image_title']
+
 		);
 } 
 unset($i);

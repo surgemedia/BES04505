@@ -13,7 +13,8 @@ for ($i=0; $i < sizeof($slider); $i++) { ?>
        <?php echo $slider[$i]['content'] ?>
       <div class="border-hexo"></div>
      	</div>
-     	<a class="btn text" href="#">Find Out More</a>
+      http://www.podiumlifecoaching.com.au/
+     	<a class="btn text" href="<?php echo $slider[$i]['link_location'] ?>"><?php echo $slider[$i]['link_text'] ?></a>
     </div>
 <?php } ?>
    </div>

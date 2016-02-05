@@ -6,6 +6,8 @@ $content1 = $args[4];
 $content2 = $args[5];
 $content3= $args[6];
 $image =  aq_resize($args[7], 1920,350,true,true,true);
+$image_text =  $args[8];
+
  ?>
 <section class="container-fluid colored-para">
 	<div class="row  ">
@@ -42,8 +44,10 @@ $image =  aq_resize($args[7], 1920,350,true,true,true);
 			<?php echo $content3  ?>
 		</div>
 		</div>
-
-		<img class="img-responsive" src="<?php echo $image ?>" alt="">
+		<div  class="col-xs-12 image-header" style="background-image:url('<?php echo $image ?>');">
+			<h2 class="text-center uppercase"><?php echo $image_text ?></h2>
+		</div>
+		<!-- <img class="img-responsive" src="" alt=""> -->
 	</div>
 
 </section>
