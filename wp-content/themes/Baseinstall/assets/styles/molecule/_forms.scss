@@ -17,10 +17,9 @@
 	width:70% !important;
 	margin: 0 auto !important;
 	float:none  !important;
-
 }
 .gform_fields {
-	//padding-left:10em !important;
+
 	display:inline-block;
 	float:none;
 	font-size:1em !important;
@@ -43,7 +42,7 @@
 			 @extend .col-md-3;			
 			 font-size: 2.5em !important;
 			 line-height:1em;
-			font-weight:normal !important;
+			 font-weight:normal !important;
 
 		}
 		.ginput_container {
@@ -70,7 +69,8 @@
 					margin: 0.2em !important;
 					font-size:1.1em; 
 					box-shadow:none !important;
-					border:1px solid $grey-dark;}
+					border:1px solid $grey-dark;
+				}
 				input + input { 
 					font-size: 0.4em !important;
 				    height: auto !important;
@@ -160,7 +160,7 @@
 	}
 		li.gfield.gfield_error {
 		background-color:#fff  !important;
-		color: #fff  !important;
+		color: #000  !important;
 		padding:0em !important;
 
 		border:0px !important;
@@ -208,4 +208,9 @@
 	border-bottom:0px !important;
 	border-top:0px !important;
 
+}
+.gform_confirmation_message {
+    text-align: center;
+    font-size: 1.7em;
+    padding-bottom: 30em;
 }

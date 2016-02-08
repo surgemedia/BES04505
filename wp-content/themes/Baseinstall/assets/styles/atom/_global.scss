@@ -1,73 +1,107 @@
 body {
-	font-family:$font-primary;
-	line-height:1;
-	font-size:10px;
-	background-repeat:no-repeat;
-	font-weight:100;
-	color:#000;
-	background-color:$pink;
+    font-family: $font-primary;
+    line-height: 1;
+    font-size: 10px;
+    background-repeat: no-repeat;
+    font-weight: 100;
+    color: #000;
+    background-color: $pink;
 }
-h1 { font-family:$font-primary; font-weight:bold; font-size:7.2em;}
-h2 { font-family:$font-primary; font-weight:bold; font-size:6em;}
-h3 { font-family:$font-primary; font-weight:bold; font-size:3.6em;}
-h4 { font-family:$font-primary; font-weight:bold; font-size:2.8em;}
-h5 { font-family:$font-primary; font-weight:bold; font-size:2.8em;}
+
+h1 {
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 7.2em;
+}
+
+h2 {
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 6em;
+}
+
+h3 {
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 3.6em;
+}
+
+h4 {
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+h5 {
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
 h1.huge {
-	padding-top:1em;
-	font-weight:bold;
+    padding-top: 1em;
+    font-weight: bold;
+}
 
+.thin {
+    font-weight: 100;
 }
-.thin  {
- 	font-weight:100;
+
+p {
+    font-family: $font-primary;
+    font-weight: 100;
+    font-size: 2.1em;
+    line-height: 1.619em;
 }
-p { font-family:$font-primary; font-weight:100; font-size:2.1em; line-height:1.619em;}
-a {	color:$pink;}
+
+a {
+    color: $pink;
+}
+
 .uppercase {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
-
 
 .content {
-	ul {
-		font-size:2.1em;
-		line-height:1.619em;
-		font-weight:100;
-	}
+    ul {
+        font-size: 2.1em;
+        line-height: 1.619em;
+        font-weight: 100;
+    }
 }
+
 .text-box {
-	padding:3em;
-	p {
-		margin-bottom:2em;
-	}
+    padding: 3em;
+    p {
+        margin-bottom: 2em;
+    }
 }
+
 
 /*=========================================
 =            Background Colors            =
 =========================================*/
+
 .pink-bg {
-	background-color:$pink;
-	h1,h2,h3,h4,h5,p,a,ul,li{
-		color:#fff;
-	}
+    background-color: $pink;
+    h1, h2, h3, h4, h5, p, a, ul, li {
+        color: #fff;
+    }
 }
+
 .white-bg {
-	background-color:#fff;
+    background-color: #fff;
 }
+
 .grey-bg {
-	background-color:$grey;
+    background-color: $grey;
 }
+
 #poststuff {
-	iframe {
-		font-size:0.9em;
-		p {
-			line-height:3.4em; 
-		}
-	}
+    iframe {
+        font-size: 0.9em;
+        p {
+            line-height: 3.4em;
+        }
+    }
 }
-/*=============================================
-=            Change Menu Break Point           =
-=============================================*/
-
-
-
-
